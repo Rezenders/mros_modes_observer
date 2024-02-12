@@ -18,8 +18,8 @@ limitations under the License.
 #include <cstdio>
 #include <rclcpp/rclcpp.hpp>
 #include <diagnostic_msgs/msg/diagnostic_array.hpp>
-#include <system_modes/srv/get_available_modes.hpp>
-#include <system_modes/srv/get_mode.hpp>
+#include <system_modes_msgs/srv/get_available_modes.hpp>
+#include <system_modes_msgs/srv/get_mode.hpp>
 #include <lifecycle_msgs/msg/transition_event.hpp>
 #include <lifecycle_msgs/msg/state.hpp>
 #include <rclcpp/parameter.hpp>
